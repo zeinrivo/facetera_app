@@ -6,7 +6,7 @@ import pickle
 from mtcnn import MTCNN
 from matplotlib.patches import Rectangle
 
-model_loaded = pickle.load(open('faceCounter_model','rb'))
+model = MTCNN()
 uploaded_file = st.file_uploader("JPG only", type=["jpg"])
 
 if uploaded_file is None:
@@ -15,7 +15,7 @@ else:
     image = Image.open(uploaded_file)
     image = image.convert('RGB')
     pixels = asarray (image)
-    outcome = model_loaded.detect_faces(pixels)
+    outcome = model.detect_faces(pixels)
     total = len(outcome)
     string = str(total)
     st.success(string)
