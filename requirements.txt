@@ -1,6 +1,6 @@
-numpy==1.19.2
+numpy
 matplotlib
-tensorflow==2.6.0
-keras==2.6.0
-streamlit==1.2.0
+tensorflow
+keras
+streamlit
 mtcnn
