@@ -1,7 +1,6 @@
-freeze
+pip==23.2.1
 numpy
 matplotlib
 tensorflow
-keras
 streamlit
 mtcnn
