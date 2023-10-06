@@ -2,7 +2,6 @@ import streamlit as st
 from PIL import Image
 import matplotlib.pyplot as plt
 from numpy import asarray
-import pickle
 from mtcnn import MTCNN
 from matplotlib.patches import Rectangle
 
