@@ -29,7 +29,7 @@ if selected == "Home":
     # )
 
     logo = Image.open('logo.jpg')
-    logo.thumbnail((816,200))
+    logo.thumbnail((1016,400))
     st.image(logo)
 
     image2 = Image.open('home.jpg')
