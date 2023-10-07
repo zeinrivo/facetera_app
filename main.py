@@ -29,11 +29,11 @@ if selected == "Home":
     # )
 
     logo = Image.open('logo.jpg')
-    logo.thumbnail((616,200))
+    logo.thumbnail((816,200))
     st.image(logo)
 
     image2 = Image.open('home.jpg')
-    image2.thumbnail((400,400))
+    image2.thumbnail((300,300))
     st.image(image2)
     
     st.markdown(
