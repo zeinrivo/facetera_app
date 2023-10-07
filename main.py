@@ -101,8 +101,3 @@ if selected == "Demo":
 
       st.set_option('deprecation.showPyplotGlobalUse', False)
       st.pyplot(draw_facebox(uploaded_file, outcome))
-        ax.add_patch(rect)
-      plt.show()
-
-    st.set_option('deprecation.showPyplotGlobalUse', False)
-    st.pyplot(draw_facebox(uploaded_file, outcome))
