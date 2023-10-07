@@ -21,12 +21,16 @@ with st.sidebar:
 )
 
 if selected == "Home":
-    st.write("# FACETERA ")
-    st.write(
-    """
-    A Face Detection Web-Based App Using **Multi-Task Cascaded Convolutional Neural Networks (MTCNN)**.
-    """
-    )
+    # st.write("# FACETERA ")
+    # st.write(
+    # """
+    # A Face Detection Web-Based App Using **Multi-Task Cascaded Convolutional Neural Networks (MTCNN)**.
+    # """
+    # )
+
+    logo = Image.open('logo.jpg')
+    logo.thumbnail((616,200))
+    st.image(logo)
 
     image2 = Image.open('home.jpg')
     image2.thumbnail((400,400))
