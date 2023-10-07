@@ -1,6 +1,7 @@
 pip==23.2.1
 numpy
 matplotlib
+tensorflow
 streamlit
 streamlit_option_menu
 mtcnn
