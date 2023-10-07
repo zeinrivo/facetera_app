@@ -65,6 +65,26 @@ if selected == "Model":
     - [Google Colaboratory](https://drive.google.com/drive/folders/1aLkpvevAbYuRw826pgOOD2qZSvkjvmdh?usp=sharing)
     """
     )
+    st.markdown(
+    """
+    - [ResearchGate](https://www.researchgate.net/figure/The-steps-for-face-detection-with-RFE-MTCNN_fig9_346916740)
+    """
+    )
+    st.markdown(
+    """
+    - [Towards Data Science](https://towardsdatascience.com/face-detection-neural-network-structure-257b8f6f85d1)
+    """
+    )
+    st.markdown(
+    """
+    - [Machine Learning Mastery](https://machinelearningmastery.com/how-to-perform-face-detection-with-classical-and-deep-learning-methods-in-python-with-keras/)
+    """
+    )
+    st.markdown(
+    """
+    - [Medium](https://medium.com/the-modern-scientist/multi-task-cascaded-convolutional-neural-network-mtcnn-a31d88f501c8)
+    """
+    )
 
 
 if selected == "Demo":
